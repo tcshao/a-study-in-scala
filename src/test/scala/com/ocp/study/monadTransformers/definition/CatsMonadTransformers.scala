@@ -11,7 +11,6 @@ import scala.concurrent.duration._
 
 class CatsMonadTransformers extends FunSpec with Matchers {
 
-  EitherT.
   it("should Transform! (Exercise 5.4)") {
 
     type Response[A] = EitherT[Future, String, A]

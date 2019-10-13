@@ -12,7 +12,7 @@ class DataValidationSpec extends FunSpec with Matchers {
     def and(that: Check[E, A]): Check[E, A]
   }
 
-  final case class CheckF[E, A](func: A => Either[E, A]) {
+  abstract class CheckF[E, A](func: A => Either[E, A]) {
     def apply(a: A): Either[E, A] = func(a)
 
     def and(that: CheckF[E, A])
