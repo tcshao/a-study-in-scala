@@ -1,2 +1,4 @@
 # a-study-in-scala
-more scala examples, this time using a lot of cats stuff.
+Scala Examples, most using Cats 
+
+Examples / exercises taken from the [Scala With Cats](https://underscore.io/books/scala-with-cats/) Book
