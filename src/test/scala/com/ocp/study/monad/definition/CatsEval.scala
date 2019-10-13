@@ -61,7 +61,7 @@ class CatsEval extends FunSpec with Matchers {
     factorial3(50000).value.toString().take(10) shouldBe "3347320509"
   }
 
-  it("can make foldRight stack safe (Exercise 4.6.5") {
+  it("can make foldRight stack safe (Exercise 4.6.5)") {
 
     def foldRight[A, B](as: List[A], acc: B)(fn: (A, B) => B): B =
       as match {
