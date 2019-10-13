@@ -1,2 +1,19 @@
+# sbt
+# (may want to keep parts of 'project')
+bin/
+project/
+target/
+build/
+
+# metals
+.bloop/
+.metals/
+
+# other?
+.history
+.scala_dependencies
+.cache
+.cache-main
+
+#general
 *.class
-*.log
